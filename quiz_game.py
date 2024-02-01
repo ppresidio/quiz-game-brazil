@@ -1,7 +1,7 @@
 """
 Name: quiz_game.py
  Author: Pedro Paulo Presidio
- Created: 1/22/24
+ Created: 2/1/24
  Purpose: A quiz game about Brazil
 """
 #--------------CONSTANTS------------------
