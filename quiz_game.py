@@ -42,7 +42,7 @@ else:
     print("please enter your choice as said on the text")
     
 #TODO: Create a structure that do the first level, while there is still questions to answer.
-#Question 1
+#Question 1 - Level 1
 while answer_level_1 == "y":
     print("let's start the game! To select the right answer, you need to type the same name as it is written on the options.")
     question = input(f"In which continente Brazil is located? \n a) South America \t b) Central America \n c) Africa \t d) Europe \n The answer is:")
@@ -52,7 +52,7 @@ while answer_level_1 == "y":
     else:
         print("Wrong Answer")
         break
-#Question 2    
+#Question 2 - Level 1  
     if score == 1:
         question = input(f"What is the most spoken langague in Brazil? \n a) Brazilian \t b) Spanish \n c) Portuguese \t d) English \n The answer is:")
         if question == "Portuguese":
@@ -62,9 +62,46 @@ while answer_level_1 == "y":
         print("Wrong Answer! You will need to start all over again :/")
         break
 #TODO: Create a structure that do the second level, while there is still questions to answer.
-
+#Question 1 - Level 2
+while answer_level_2 == "y":
+    print("let's start the game! To select the right answer, you need to type the same name as it is written on the options.")
+    question = input(f"who wrote the song garota de ipanema? \n a) Caetano Veloso \t b) Chico Buarque \n c) Jorge Ben Jor \t d) Antonio Jobim \n The answer is:")
+    if question == "Antonio Jobim":
+        print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer")
+        break
+#Question 2 - Level 2   
+    if score == 1:
+        question = input(f"Which is the capital of Brazil? \n a) Sao Paulo \t b) Brasilia \n c) Rio de Janeiro \t d) Salvador \n The answer is:")
+        if question == "Brasilia":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
 
 #TODO: Create a structure that do the third level, while there is still questions to answer.
+#Question 1 - Level 3
+while answer_level_3 == "y":
+    print("let's start the game! To select the right answer, you need to type the same name as it is written on the options.")
+    question = input(f"Who was the most important quilombola warrior? \n a) Zumbi \t b)Palmares \n c) Urubu \t d) Zizeu \n The answer is:")
+    if question == "Zumbi":
+        print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer")
+        break
+#Question 2 - Level 3    
+    if score == 1:
+        question = input(f"Who wrote the Brazil's national anthem? \n a) Dom Pedro II \t b) Carlos Gomes \n c) Francisco Manuel da Silva \t d) Osorio Duque-Estrada \n The answer is:")
+        if question == "Francisco Manuel da Silve":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
 
 
 #TODO: Print the results, and ask if he wants to play another game
