@@ -61,6 +61,24 @@ while answer_level_1 == "y":
     else:
         print("Wrong Answer! You will need to start all over again :/")
         break
+#Question 3 - Level 1  
+    if score == 2:
+        question = input(f"Which is the most famous event in Brazil? \n a) World Cup \t b) Carnaval \n c) Christmas \t d) Easter \n The answer is:")
+        if question == "Carnaval":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
+#Question 4 - Level 1  
+    if score == 3:
+        question = input(f"In which month the carnavla is celebrated? \n a) February \t b) January \n c) December \t d) March \n The answer is:")
+        if question == "February":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break        
 #TODO: Create a structure that do the second level, while there is still questions to answer.
 #Question 1 - Level 2
 while answer_level_2 == "y":
@@ -81,6 +99,24 @@ while answer_level_2 == "y":
     else:
         print("Wrong Answer! You will need to start all over again :/")
         break
+#Question 3 - Level 2   
+    if score == 2:
+        question = input(f"In which month is Brazil's independece day? \n a) September \t b) July \n c) January \t d) October \n The answer is:")
+        if question == "September":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
+#Question 4 - Level 2   
+    if score == 3:
+        question = input(f"Where the (Farol da Barra) is located? \n a) Buzios \t b) Recife \n c) Rio de Janeiro \t d) Salvador \n The answer is:")
+        if question == "Salvador":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break        
 
 #TODO: Create a structure that do the third level, while there is still questions to answer.
 #Question 1 - Level 3
@@ -102,10 +138,27 @@ while answer_level_3 == "y":
     else:
         print("Wrong Answer! You will need to start all over again :/")
         break
+#Question 3 - Level 3    
+    if score == 2:
+        question = input(f"Who was the second president of Brazil? \n a) Campos Sales \t b) Deodoro da Fonseca \n c) Juscelino Kubitschek \t d) Floriano Peixoto \n The answer is:")
+        if question == "Floriano Peixoto":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
+#Question 4 - Level 3    
+    if score == 3:
+        question = int(input(f"What is the size of Brazil in Km2? \n a) 328600 \t b) 3286000 \n c) 3284000 \t d) 328400 \n The answer is:"))
+        if question == "3286000":
+            print("\nRight Answer\n")
+        score += 1
+    else:
+        print("Wrong Answer! You will need to start all over again :/")
+        break
 
 
 #TODO: Print the results, and ask if he wants to play another game
 
 
 #TODO: If he decide not to play, print a message with the score again, and tell about the user performace
-
